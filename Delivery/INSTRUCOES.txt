@@ -1,0 +1,13 @@
+*CONFIGURANDO O BACKUP DO DELIVERY
+
+1. Executar o arquivo ConfigBackup.bat
+------------------------------------------------------------------
+*CONFIGURANDO O BACKUP DO DELIVERY PARA PASTAS DE REDE
+
+1. No micro que será destino do backup, executar "CompartilhaPastaBackup.bat" (Clicar com o botão direito do mouse e selecionar a opção "Executar como administrador")
+
+2. No servidor, clicar com o botão direito do mouse no arquivo "BackupDeliveryRede.bat" e selecionar a opção Editar
+
+3. Subtituir todos os "NOME DO MICRO DE DESTINO DO BACKUP" pelo nome do micro que será o destino do backup. (Para verificar o nome, executar o arquivo "VerificaNome.bat" no micro que será o destino do backup)
+
+4. Executar o arquivo ConfigBackup.bat
