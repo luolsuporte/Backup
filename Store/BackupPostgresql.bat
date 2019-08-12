@@ -22,8 +22,8 @@ for /f "tokens=1,2,3,4 delims=/ " %%a in ('DATE /T') do set Date=%%a
 rem Executa o backup do banco de dados e executavel para os diretorios descritos
 %OS%\PostgreSQL\8.1\bin\vacuumdb -U postgres -d PREENCHER NOME DO BANCO DE DADOS
 %OS%\PostgreSQL\8.1\bin\pg_dump -U postgres -f "C:\backup\Luol\Db\PREENCHER NOME DO BANCO DE DADOS%Date%.out" PREENCHER NOME DO BANCO DE DADOS
-copy "C:\Progress\Progress.exe" "C:\backup\Luol\Exe\Progress%Date%.exe"
-copy "C:\Progress\Caixa.exe" "C:\backup\Luol\Exe\Caixa%Date%.exe"
+copy "C:\Store\Store.exe" "C:\backup\Luol\Exe\Store%Date%.exe"
+copy "C:\Store\Facil.exe" "C:\backup\Luol\Exe\Facil%Date%.exe"
 
 rem sair da tela depois do backup
 exit
