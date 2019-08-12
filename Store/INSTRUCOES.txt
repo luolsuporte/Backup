@@ -1,4 +1,4 @@
-*CONFIGURANDO O BACKUP DO PROGRESS
+*CONFIGURANDO O BACKUP DO STORE
 
 1. Executar o arquivo ConfigBackup.bat
 
@@ -7,7 +7,7 @@
 3. Substituir "PREENCHER NOME DO BANCO DE DADOS" pelo nome do banco de dados (Verificar o nome do banco de dados utilizando o ListarBancos.bat)
 Obs: o nome do banco de dados deve obedecer os caracteres minusculos e maiusculos, caso contrario não será possivel identificar o banco
 ------------------------------------------------------------------
-*CONFIGURANDO O BACKUP DO PROGRESS EM REDE
+*CONFIGURANDO O BACKUP DO STORE EM REDE
 
 1. No micro que será destino do backup, executar "CompartilhaPastaBackup.bat" (Clicar com o botão direito do mouse e selecionar a opção "Executar como administrador")
 
