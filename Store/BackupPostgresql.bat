@@ -19,8 +19,8 @@ echo "Aguarde, realizando o backup do Banco de Dados"
 
 reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x86" > NUL && set OS=32 || set OS=64
 
-if OS==64 GOTO 64bits
-if OS==32 GOTO 32bits
+if %OS%==64 GOTO 64bits
+if %OS%==32 GOTO 32bits
 
 :32bits
 rem Executa o backup do banco de dados e executavel para os diretorios descritos (em sistemas x86)
